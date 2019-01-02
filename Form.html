@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Form penerima</title>
+	</head>
+
+	<body>
+		<h3 align="center">Form Pendaftaran Admin</h3>
+		<form action="Formdt.html" method="GET" align="center">
+			Nama : <input type="text" name="nama"/><br>
+			Password : <input type="password" name="password"/><br>
+			jenis kelamin :
+				<input type="radio" name="jenis_kelamin" value="laki-laki" checked/>Laki-laki
+				<input type="radio" name="jenis_kelamin" value="perempuan" checked/>Perempuan
+			<br>
+			Keahlian : 
+				<input type="checkbox" name="Memasak"/>Memasak
+				<input type="checkbox" name="Memanah"/>Memanah
+				<input type="checkbox" name="berenang"/>Berenang
+			<br>
+			Tempat Lahir :
+				<select name="tempat_lahir">
+					<option value="Semarang"selected>Semarang</option>
+					<option value="bandung">Bandung</option>
+					<option value="Bali" >Bali</option>
+				</select>
+			<br>
+			Deskripsi :
+				<textarea name="deskripsi" rows="5" cols="28">
+				</textarea>
+				<input type="submit" value="enter">
+				<input type="reset" value="reset">
+			</form>
+	</body>
+
+</html>
